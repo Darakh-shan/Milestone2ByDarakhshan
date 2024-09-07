@@ -1,0 +1,63 @@
+body{
+    font-family:"Raleway", sans-serif;
+    margin: 30px;
+    padding: 0%;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: rgb(73, 148, 153);
+}
+h1:hover{
+    color: white;
+}
+form{
+    max-width:600px ;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(105, 180, 179);
+    border-radius: 9px;
+    border: 2px solid black;
+    box-shadow:0 0 8px rgb(119, 126, 128);
+}
+fieldset{
+    border:  2px solid rgb(75, 152, 148);
+    border-radius:8px ;
+    padding: 20px;
+    margin-bottom:20px;
+    background-color: rgb(228, 243, 242);
+}
+legend{
+    font-weight: bold;
+}
+label{
+    display: block;
+    margin-top: 10px;
+
+}
+input,textarea{
+    width: calc(100% - 1px) ;
+    padding: 8px;
+    margin-top: 4px;
+    border: 2px solid rgb(166, 193, 194);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: 100px;
+    padding: 10px;
+    color: black;
+    background-color:rgb(105, 180, 179);
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 0 5px rgb(140, 128, 128);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: top 20px;
+}
+button:hover{
+    background-color: rgb(27, 120, 122);
+    color: rgb(232, 224, 224);
+
+}
